@@ -61,3 +61,27 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+# Authors
+authors:
+  Manikishan:
+    name: Manikishan Ghantasala
+    display_name: Manikishan
+    gravatar: ffcff9e55f886bcf46c534a2996937d6
+    email: manikishanghantasala@gmail.com
+    web: https://manikisha.wordpress.com
+    twitter: https://twitter.com/ManikishanG
+    description: "Author of this site"
+  Bhanu prakash:
+    name: Bhanuprakash Poluparthi
+    display_name: Bhanu prakash
+    gravatar: a0a27865017dd4456f47f0a9e7d964a6
+    email: p.bhanuprakash12345@gmail.com
+    web: https://bhanuprakashnani.wordpress.com
+    description: "Author of this site"
+  Gopa vasanth:
+    name: Gopa vasanth
+    display_name: Gopa vasanth
+    gravatar: 287f5d0360b37dd1ea03339b4aed1812
+    email: gopavasanth1999@gmail.com
+    web: https://gopavasanth.wordpress.com
+    description: "Author of this site"
