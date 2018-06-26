@@ -7,7 +7,6 @@ sitemap:
     lastmod: 2017-11-02
     changefreq: weekly
 ---
-
 <!DOCTYPE HTML>
 <!--
 	Massively by HTML5 UP
@@ -21,7 +20,7 @@ sitemap:
     {% include head.html %}
 
 	</head>
-	
+
 	<body class="is-loading">
 
 		<!-- Wrapper -->
@@ -36,7 +35,7 @@ sitemap:
 							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
 					</div>
-				
+
 
 				<!-- Header -->
 					<header id="header">
@@ -79,33 +78,52 @@ sitemap:
 							</article>
 
 						<!-- Posts -->
-							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Sponsored</a></h2>
-  									</header>
+							<!--<section class="posts">-->
+                <!--{% for post in site.posts limit:3 %}-->
+                <!--{% assign mod3 = forloop.index | modulo: 3 %}-->
+  								<!--<article>-->
+  									<!--<header>-->
+  										<!--<span class="date">{{ post.date | date_to_string }}</span>-->
+  										<!--<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>-->
+  									<!--</header>-->
+  									<!--<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>-->
+  									<!--<p>{{ post.excerpt }}</p>-->
+  									<!--<ul class="actions">-->
+  										<!--<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>-->
+  									<!--</ul>-->
+  								<!--</article>-->
+                  <!--{% if mod3 == 0 %}-->
+                  <!--<article>-->
+  									<!--<header>-->
+  										<!--<h2><a href="#">Sponsored</a></h2>-->
+  									<!--</header>-->
 
-  								</article>
-                  {% endif %}
-                {% endfor %}
+  								<!--</article>-->
+                  <!--{% endif %}-->
+                <!--{% endfor %}-->
 
-							</section>
+							<!--</section>-->
+						<section class="recent-posts">
+
+							<div class="section-title">
+
+								<h2><span>All Stories</span></h2>
+
+							</div>
+
+							<div class="row listrecent">
+
+								{% for post in paginator.posts %}
+
+								{% include postbox.html %}
+
+								{% endfor %}
+
+							</div>
+
+						</section>
+					
 <div class="sharethis-sticky-share-buttons"></div> 
-
 						<!-- Footer -->
 							<footer>
                 <ul class="actions">
