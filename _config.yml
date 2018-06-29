@@ -1,9 +1,9 @@
 # Site
 title:              FOSS
-bio:                'This is the place for all FOSS Bloggers'
-description:        'This is the place for all FOSS Bloggers'
+bio:                'Jekyll version of the Massively theme by HTML5UP'
+description:        "Jekyll version of the Massively theme by HTML5UP"
 locale:             en_US
-baseurl: "/foss-blog/"
+baseurl: ""
 url: "" # the base hostname & protocol for your site
 
 defaults:
@@ -42,7 +42,7 @@ github:             amfoss
 
 # personal
 location:           Amrita Vishwa Vidyapeetham, Amritapuri, Kerala.
-phone:              +919567543876
+phone:              09567543876
 email:              amritapurifoss@gmail.com
 
 # Gems
@@ -72,7 +72,7 @@ authors:
     twitter: https://twitter.com/ManikishanG
     description: "Author of this site"
   Bhanu prakash:
-    name: Bhanu Prakash Poluparthi
+    name: Bhanuprakash Poluparthi
     display_name: Bhanu prakash
     gravatar: a0a27865017dd4456f47f0a9e7d964a6
     email: p.bhanuprakash12345@gmail.com
