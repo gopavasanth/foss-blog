@@ -1,7 +1,7 @@
 # Site
 title:              FOSS
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+bio:                'This is the place for all FOSS Bloggers'
+description:        'This is the place for all FOSS Bloggers'
 locale:             en_US
 baseurl: "/foss-blog/"
 url: "" # the base hostname & protocol for your site
